@@ -1,0 +1,164 @@
+$bruse: #4AD3C9;
+$whatsapp: #1ED760;
+// 23272A
+
+*{
+    margin: 0;
+    color: #fff;
+    letter-spacing: 2%;
+    font-family: PT Sans;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+    background-color: #6666;
+    font-family: PT Sans;
+}
+
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 35px;
+
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 35px;
+    font-weight: 400;
+}
+
+h3{
+    margin-bottom: 35px
+}
+
+.main-container{
+    width: 1440px;
+    background-color: #181818;
+    padding: 0 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+
+
+.section-1{
+    width: 496px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bc{
+    display: flex;
+    align-items: center;
+    width: 222px;
+    height: 45px;
+    border-radius: 15px;
+}
+
+.number{
+    border: 2px solid $bruse;
+        svg{
+            margin: 0 13px 0 10px;
+        }
+}
+
+.whatsapp{
+    border: 2px solid $whatsapp;
+    svg{
+        margin: 0 45px 0 10px;
+    }
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid $bruse;
+    padding: 30px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.ib{
+    width: 277px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid $bruse;
+    padding-left: 20px;
+    background-color: #181818;
+}
+
+.input-name{
+    margin-bottom: 15px;
+}
+
+.input-phone{
+    margin-bottom: 35px;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid $bruse;
+    background-color: #181818;
+    transition: 400ms;
+    &:hover{
+        background-color: $bruse;
+        cursor: pointer;
+    }
+}
+
+
+
