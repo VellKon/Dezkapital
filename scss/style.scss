@@ -1,6 +1,6 @@
-$bruse: #4AD3C9;
-$whatsapp: #1abb52;
-
+$green: #228B22;
+$gray: #181818;
+$blue: #23272A;
 
 *{
     margin: 0;
@@ -12,7 +12,6 @@ html{
     display: flex;
     justify-content: center;
     background-color: #6666;
-    font-family: PT Sans;
 }
 
 .pt-sans-regular {
@@ -76,14 +75,27 @@ h5{
     margin-bottom: 35px;
 }
 
+.mr-35{
+    margin-right: 35px;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
+
+.mr-15{
+    margin-right: 15px;
+}
+
 .main-container{
     width: 1440px;
-    background-color: #181818;
+    background-color: $blue;
 }
 
 .header{
     display: flex;
     justify-content: center;
+    background-color: $gray;
 }
 
 .block{
@@ -94,6 +106,7 @@ h5{
 
 .block-1{
     justify-content: space-between;
+    background-color: $gray;
 }
 
 .section-1{
@@ -105,48 +118,52 @@ h5{
     justify-content: space-between;
 }
 
-.whatsapp, .number{
+.whatsapp, .number, .telegram, .instagram{
+    font-family: Arial, sans-serif;
     display: flex;
     align-items: center;
     width: 222px;
     height: 45px;
     border-radius: 15px;
+    letter-spacing: 1px;
+}
+
+.whatsapp, .telegram, .instagram{
+    transition: 400ms;
+    font-weight: 500;
+    cursor: pointer;
+        img{
+            margin: 0 45px 0 10px;
+        }
 }
 
 .number{
-    border: 2px solid $bruse;
     transition: 400ms;
+    font-weight: 500;
+    border: 2px solid $green;
     cursor: pointer;
     &:hover{
-        background-color: $bruse;
+        background-color: $green;
     }
         img{
             margin: 0 13px 0 10px;
-            color: wheat;
         }
 }
 
 .whatsapp{
-    border: 2px solid $whatsapp;
-    font-weight: 500;
-    transition: 400ms;
-    cursor: pointer;
+    border: 2px solid $green;
     &:hover{
-        background-color: $whatsapp;
+        background-color: $green;
+    }
 
-    }
-    img{
-        margin: 0 45px 0 10px;
-    }
 }
 
 #form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    // justify-content: center;
     border-radius: 20px;
-    border: 2px solid $bruse;
+    border: 2px solid $green;
     padding: 20px;
 }
 
@@ -159,9 +176,9 @@ h5{
     width: 277px;
     height: 40px;
     border-radius: 20px;
-    border: 2px solid $bruse;
+    border: 2px solid $green;
     padding-left: 20px;
-    background-color: #181818;
+    background-color: $blue;
 }
 
 
@@ -169,22 +186,21 @@ h5{
     width: 200px;
     height: 40px;
     border-radius: 20px;
-    border: 2px solid $bruse;
-    background-color: #181818;
+    border: 2px solid $green;
+    background-color: $blue;
     transition: 400ms;
     cursor: pointer;
     &:hover{
-        background-color: $bruse;
+        background-color: $green;
     }
     &[disabled]:hover {
-        background-color: $bruse;
+        background-color: $green;
         cursor: not-allowed;
       }
 }
 
 .block-2{
     flex-direction: column;
-    background-color: #23272A;
 }
 
 .container-blocks-services{
@@ -211,7 +227,7 @@ h5{
     justify-content: center;
     width: 611px;
     height: 230px;  
-    background-color: #181818;
+    background-color: $gray;
     margin-bottom: 15px;
     border-radius: 15px;
     padding: 20px;
@@ -221,4 +237,106 @@ h5{
     margin-right: 15px;
 }
 
+.block-3{
+    flex-direction: column;
+    background-color: $gray;
+}
 
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+.telegram{
+    border: 2px solid #40B3E0;
+    cursor: pointer;
+        &:hover{
+            background-color: #40B3E0;
+        }
+}
+.instagram{
+    border: 2px solid #C23092;
+    cursor: pointer;
+        &:hover{
+            background-color: #C23092;
+        }
+}
+.email{
+    transition: 400ms;
+    font-weight: 500;
+    border: 2px solid #E08B40;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 45px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+        &:hover{
+            background-color: #E08B40;
+        }
+            img{
+                margin: 0 13px 0 10px;
+            }
+}
+
+.number{
+    transition: 400ms;
+    font-weight: 500;
+    border: 2px solid $green;
+    cursor: pointer;
+    &:hover{
+        background-color: $green;
+    }
+        img{
+            margin: 0 13px 0 10px;
+        }
+}
+
+.block-4{
+    background-color: $blue;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.card{
+    background-color: $gray;
+    padding: 35px;
+    border-radius: 15px;
+    width: 367px;
+    p{
+        margin-bottom: 15px;
+    }
+}
+
+.card-heading{
+    text-align: center;
+}
+
+.block-5{
+    flex-direction: column;
+    background-color: $gray;
+
+}
+
+.sertificate{
+    flex-wrap: wrap;
+    width: 440px;
+}
+
+
+
+footer{
+    margin-top: 35px;
+    padding: 35px;
+    text-align: center;
+    background-color: $gray;
+    border-top: 2px solid $green;
+}
