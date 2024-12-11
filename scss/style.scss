@@ -70,7 +70,7 @@ $font-main: "PT Sans";
 html{
     display: flex;
     justify-content: center;
-    background-color: #6666;
+    background-color: $blue;
 }
 a{
     text-decoration: none;
@@ -110,10 +110,6 @@ h5{
 .mr-15{
     margin-right: 15px;
 }
-.main-wrapper{
-    width: 1440px;
-    background-color: $blue;
-}
 header{
     display: flex;
     justify-content: center;
@@ -130,7 +126,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: $gray;
-    padding: 35px 50px;
+    padding: 35px 100px;
 }
 .hero-content{
     width: 471px;
