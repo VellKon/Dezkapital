@@ -2,141 +2,115 @@
   font-family: "PT Sans";
   src: url("../fonts/PTSans-Regular.ttf") format("truetype");
   font-style: normal;
-  font-weight: 400;
-}
+  font-weight: 400; }
 @font-face {
   font-family: "PT Sans";
   src: url("../fonts/PTSans-Bold.ttf") format("truetype");
   font-style: normal;
-  font-weight: 700;
-}
+  font-weight: 700; }
 @font-face {
   font-family: "PT Sans";
   src: url("../fonts/PTSans-Italic.ttf") format("truetype");
   font-style: italic;
-  font-weight: 400;
-}
+  font-weight: 400; }
 @font-face {
   font-family: "PT Sans";
   src: url("../fonts/PTSans-BoldItalic.ttf") format("truetype");
   font-style: italic;
-  font-weight: 700;
-}
+  font-weight: 700; }
 .pt-sans-regular {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
-  font-style: normal;
-}
+  font-style: normal; }
 
 .pt-sans-bold {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
-  font-style: normal;
-}
+  font-style: normal; }
 
 .pt-sans-regular-italic {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
-  font-style: italic;
-}
+  font-style: italic; }
 
 .pt-sans-bold-italic {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
-  font-style: italic;
-}
+  font-style: italic; }
 
 * {
   margin: 0;
   color: #fff;
   list-style: none;
-  font-family: "PT Sans";
-}
+  font-family: "PT Sans"; }
 
 html {
   display: flex;
   justify-content: center;
-  background-color: #23272A;
-}
+  background-color: #23272A; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 p {
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 h1 {
   font-size: 24px;
-  margin-bottom: 35px;
-}
+  margin-bottom: 35px; }
 
 h2 {
   font-size: 24px;
-  font-weight: 600;
-}
+  font-weight: 600; }
 
 h3 {
-  margin-bottom: 35px;
-}
+  margin-bottom: 35px; }
 
 h4 {
   font-size: 20px;
-  font-weight: 600;
-}
+  font-weight: 600; }
 
 h5 {
   font-weight: 400;
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 .mb-35 {
-  margin-bottom: 35px;
-}
+  margin-bottom: 35px; }
 
 .mr-35 {
-  margin-right: 35px;
-}
+  margin-right: 35px; }
 
 .mb-15 {
-  margin-bottom: 15px;
-}
+  margin-bottom: 15px; }
 
 .mr-15 {
-  margin-right: 15px;
-}
+  margin-right: 15px; }
 
 header {
   display: flex;
   justify-content: center;
   background-color: #181818;
-  padding: 20px;
-}
+  padding: 20px; }
 
 .block {
   display: flex;
   align-items: center;
-  padding: 35px 50px;
-}
+  padding: 35px 50px; }
 
 .hero-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #181818;
-  padding: 35px 100px;
-}
+  padding: 35px 100px; }
 
 .hero-content {
-  width: 471px;
-}
+  width: 471px; }
 
 .buttons {
   display: flex;
   justify-content: space-between;
-  margin-top: 35px;
-}
+  margin-top: 35px; }
 
 .button-style {
   display: flex;
@@ -148,45 +122,34 @@ header {
   font-weight: 500;
   transition: all 400ms;
   letter-spacing: 1px;
-  cursor: pointer;
-}
-.button-style img {
-  margin: 0 0 0 10px;
-}
-.button-style:hover {
-  background-color: #228B22;
-}
+  cursor: pointer; }
+  .button-style img {
+    margin: 0 0 0 10px; }
+  .button-style:hover {
+    background-color: #228B22; }
 
 .buttons .button-style {
-  width: 220px;
-}
+  width: 220px; }
 
 .whatsapp-button, .telegram, .instagram {
-  cursor: pointer;
-}
-.whatsapp-button img, .telegram img, .instagram img {
-  margin: 0 55px 0 10px;
-}
+  cursor: pointer; }
+  .whatsapp-button img, .telegram img, .instagram img {
+    margin: 0 55px 0 10px; }
 
 .phone-number-button {
   transition: 400ms;
   font-weight: 500;
   border: 2px solid #228B22;
-  cursor: pointer;
-}
-.phone-number-button:hover {
-  background-color: #228B22;
-}
-.phone-number-button img {
-  margin: 0 33px 0 10px;
-}
+  cursor: pointer; }
+  .phone-number-button:hover {
+    background-color: #228B22; }
+  .phone-number-button img {
+    margin: 0 33px 0 10px; }
 
 .whatsapp-button {
-  border: 2px solid #228B22;
-}
-.whatsapp-button:hover {
-  background-color: #228B22;
-}
+  border: 2px solid #228B22; }
+  .whatsapp-button:hover {
+    background-color: #228B22; }
 
 #form {
   display: flex;
@@ -194,8 +157,7 @@ header {
   align-items: center;
   border-radius: 20px;
   border: 2px solid #228B22;
-  padding: 35px;
-}
+  padding: 35px; }
 
 .ib {
   width: 277px;
@@ -203,8 +165,7 @@ header {
   border-radius: 20px;
   border: 2px solid #228B22;
   padding-left: 20px;
-  background-color: #23272A;
-}
+  background-color: #23272A; }
 
 .submit-button {
   width: 200px;
@@ -213,41 +174,34 @@ header {
   border: 2px solid #228B22;
   background-color: #23272A;
   transition: 400ms;
-  cursor: pointer;
-}
-.submit-button:hover {
-  background-color: #228B22;
-}
-.submit-button[disabled]:hover {
-  background-color: #228B22;
-  cursor: not-allowed;
-}
+  cursor: pointer; }
+  .submit-button:hover {
+    background-color: #228B22; }
+  .submit-button[disabled]:hover {
+    background-color: #228B22;
+    cursor: not-allowed; }
 
 .services-section {
   display: flex;
   align-items: center;
   padding: 35px 50px;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
 .container-blocks-services {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 35px;
-}
+  margin-top: 35px; }
 
 .heading-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 35px;
-}
+  margin-bottom: 35px; }
 
 .heading {
-  margin-left: 15px;
-}
+  margin-left: 15px; }
 
 .block-service {
   display: flex;
@@ -259,20 +213,17 @@ header {
   background-color: #181818;
   margin-bottom: 15px;
   border-radius: 15px;
-  padding: 20px;
-}
+  padding: 20px; }
 
 .desinsection {
-  margin-right: 15px;
-}
+  margin-right: 15px; }
 
 .contacts-section {
   display: flex;
   align-items: center;
   padding: 35px 50px 0 50px;
   flex-direction: column;
-  background-color: #181818;
-}
+  background-color: #181818; }
 
 .contact-list {
   display: flex;
@@ -280,494 +231,386 @@ header {
   width: 800px;
   padding: 0;
   justify-content: center;
-  margin-bottom: 35px;
-}
-.contact-list li {
-  margin-right: 15px;
-}
+  margin-bottom: 35px; }
+  .contact-list li {
+    margin-right: 15px; }
 
 .telegram {
   border: 2px solid #40B3E0;
-  cursor: pointer;
-}
-.telegram:hover {
-  background-color: #40B3E0;
-}
+  cursor: pointer; }
+  .telegram:hover {
+    background-color: #40B3E0; }
 
 .instagram {
   border: 2px solid #C23092;
-  cursor: pointer;
-}
-.instagram:hover {
-  background-color: #C23092;
-}
+  cursor: pointer; }
+  .instagram:hover {
+    background-color: #C23092; }
 
 .email {
   border: 2px solid #E08B40;
-  cursor: pointer;
-}
-.email:hover {
-  background-color: #E08B40;
-}
-.email img {
-  margin: 0 13px 0 10px;
-}
+  cursor: pointer; }
+  .email:hover {
+    background-color: #E08B40; }
+  .email img {
+    margin: 0 13px 0 10px; }
 
 .number {
   transition: 400ms;
   font-weight: 500;
   border: 2px solid #228B22;
-  cursor: pointer;
-}
-.number:hover {
-  background-color: #228B22;
-}
-.number img {
-  margin: 0 13px 0 10px;
-}
+  cursor: pointer; }
+  .number:hover {
+    background-color: #228B22; }
+  .number img {
+    margin: 0 13px 0 10px; }
 
 .process-section {
   display: flex;
   align-items: center;
   padding: 35px 50px;
   background-color: #23272A;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
 .cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 1200px;
-  margin-top: 35px;
-}
+  margin-top: 35px; }
 
 .process-step {
   background-color: #181818;
   padding: 35px;
   border-radius: 15px;
-  width: 367px;
-}
-.process-step p {
-  margin-bottom: 15px;
-}
+  width: 367px; }
+  .process-step p {
+    margin-bottom: 15px; }
 
 .card-heading {
   text-align: center;
-  margin-bottom: 35px;
-}
+  margin-bottom: 35px; }
 
 .certificates-section {
   display: flex;
   align-items: center;
   padding: 35px 0;
   flex-direction: column;
-  background-color: #181818;
-}
+  background-color: #181818; }
 
 .certificates-list {
   display: flex;
   justify-content: center;
-  margin-top: 35px;
-}
+  margin-top: 35px; }
 
 .sertificate-img {
   width: 200px;
   height: 250px;
-  margin-right: 15px;
-}
+  margin-right: 15px; }
 
 footer {
   padding: 35px;
   text-align: center;
   background-color: #181818;
-  border-top: 2px solid #228B22;
-}
+  border-top: 2px solid #228B22; }
 
 @media (max-width: 1440px) and (min-width: 1024px) {
   p, a {
-    font-size: 16px;
-  }
+    font-size: 16px; }
 
   .main-wrapper {
-    width: 1024px;
-  }
+    width: 1024px; }
 
   .hero-content {
-    text-align: center;
-  }
+    text-align: center; }
 
   .hero-section {
-    flex-direction: column;
-  }
+    flex-direction: column; }
 
   .hero-form {
-    margin-top: 35px;
-  }
+    margin-top: 35px; }
 
   .hero-content {
-    width: 500px;
-  }
+    width: 500px; }
 
   .cards {
-    width: 900px;
-  }
+    width: 900px; }
 
   .block-service {
     width: 400px;
-    height: 200px;
-  }
+    height: 200px; }
 
   .deratization {
-    text-align: center;
-  }
-}
+    text-align: center; } }
 @media (max-width: 1024px) and (min-width: 768px) {
   p {
-    font-size: 16px;
-  }
+    font-size: 16px; }
 
   a {
-    font-size: 15px;
-  }
+    font-size: 15px; }
 
   .button-style {
-    width: 225px;
-  }
+    width: 225px; }
 
   .main-wrapper {
-    width: 768px;
-  }
+    width: 768px; }
 
   .hero-content {
     text-align: center;
-    width: 500px;
-  }
+    width: 500px; }
 
   .hero-section {
-    flex-direction: column;
-  }
+    flex-direction: column; }
 
   .hero-form {
-    margin-top: 35px;
-  }
+    margin-top: 35px; }
 
   .process-step {
-    width: 250px;
-  }
+    width: 250px; }
 
   .cards {
     width: 768px;
-    padding: 0;
-  }
+    padding: 0; }
 
   .block-service {
     width: 400px;
     height: 200px;
-    margin: 0 0 15px 0;
-  }
+    margin: 0 0 15px 0; }
 
   .deratization {
-    text-align: center;
-  }
+    text-align: center; }
 
   .contact-list {
-    width: 768px;
-  }
+    width: 768px; }
 
   .sertificate-list {
     width: 150px;
     height: 200px;
-    padding: 0;
-  }
+    padding: 0; }
 
   .sertificate-img {
     width: 150px;
-    height: 200px;
-  }
-}
+    height: 200px; } }
 @media (max-width: 768px) and (min-width: 576px) {
   h2 {
-    font-size: 20px;
-  }
+    font-size: 20px; }
 
   h4 {
-    font-size: 18px;
-  }
+    font-size: 18px; }
 
   p {
-    font-size: 15px;
-  }
+    font-size: 15px; }
 
   a {
-    font-size: 15px;
-  }
+    font-size: 15px; }
 
   header img {
-    width: 45%;
-  }
+    width: 45%; }
 
   .button-style {
-    width: 225px;
-  }
+    width: 225px; }
 
   .main-wrapper {
-    width: 576px;
-  }
+    width: 576px; }
 
   .hero-content {
     text-align: center;
-    width: 500px;
-  }
+    width: 500px; }
 
   .hero-section {
     flex-direction: column;
-    padding: 15px 50px;
-  }
+    padding: 15px 50px; }
 
   .hero-form {
-    margin-top: 35px;
-  }
+    margin-top: 35px; }
 
   .process-step {
-    width: 200px;
-  }
+    width: 200px; }
 
   .cards {
     width: 576px;
-    padding: 0;
-  }
+    padding: 0; }
 
   .block-service {
     align-items: start;
     width: 400px;
     height: 200px;
-    margin: 0 0 15px 0;
-  }
+    margin: 0 0 15px 0; }
 
   .contact-list {
     width: 576px;
-    margin: 0;
-  }
+    margin: 0; }
 
   .contact-list li {
-    margin: 0 15px 15px 0;
-  }
+    margin: 0 15px 15px 0; }
 
   .sertificate-list {
     width: 150px;
     height: 200px;
-    padding: 0;
-  }
+    padding: 0; }
 
   .sertificate-img {
     width: 100px;
-    height: 150px;
-  }
-}
+    height: 150px; } }
 @media (max-width: 576px) and (min-width: 425px) {
   h2 {
-    font-size: 18px;
-  }
+    font-size: 18px; }
 
   h4 {
-    font-size: 18px;
-  }
+    font-size: 18px; }
 
   h5 {
-    font-size: 16px;
-  }
+    font-size: 16px; }
 
   p {
-    font-size: 15px;
-  }
+    font-size: 15px; }
 
   a {
-    font-size: 14px;
-  }
+    font-size: 14px; }
 
   header img {
-    width: 45%;
-  }
+    width: 45%; }
 
   .buttons .button-style {
-    width: 190px;
-  }
+    width: 190px; }
 
   .whatsapp-button img {
     margin: 0 35px 0 10px;
-    width: 25px;
-  }
+    width: 25px; }
 
   .phone-number-button img {
     margin: 0 10px 0 10px;
-    width: 25px;
-  }
+    width: 25px; }
 
   .button-style {
-    width: 225px;
-  }
+    width: 225px; }
 
   .main-wrapper {
-    width: 425px;
-  }
+    width: 425px; }
 
   .hero-content {
     text-align: center;
-    width: 400px;
-  }
+    width: 400px; }
 
   .hero-section {
     flex-direction: column;
-    padding: 15px 50px;
-  }
+    padding: 15px 50px; }
 
   .hero-form {
-    margin-top: 35px;
-  }
+    margin-top: 35px; }
 
   .process-step {
     width: 200px;
-    margin: 15px 0;
-  }
+    margin: 15px 0; }
 
   .cards {
     width: 425px;
-    padding: 0;
-  }
+    padding: 0; }
 
   .block-service {
     align-items: start;
     width: 300px;
     height: 200px;
-    margin: 0 0 15px 0;
-  }
+    margin: 0 0 15px 0; }
 
   .contact-list {
     width: 425px;
-    margin: 0;
-  }
+    margin: 0; }
 
   .contact-list li {
-    margin: 0 15px 15px 0;
-  }
+    margin: 0 15px 15px 0; }
 
   .sertificate-list {
     width: 150px;
     height: 200px;
-    padding: 0;
-  }
+    padding: 0; }
 
   .sertificate-img {
     width: 80px;
-    height: 130px;
-  }
-}
+    height: 130px; } }
 @media (max-width: 475px) {
   h1 {
-    font-size: 22px;
-  }
+    font-size: 22px; }
 
   h2 {
     font-size: 18px;
-    text-align: center;
-  }
+    text-align: center; }
 
   h4 {
-    font-size: 18px;
-  }
+    font-size: 18px; }
 
   h5 {
-    font-size: 16px;
-  }
+    font-size: 16px; }
 
   p {
-    font-size: 14px;
-  }
+    font-size: 14px; }
 
   a {
-    font-size: 13px;
-  }
+    font-size: 13px; }
 
   .main-wrapper {
-    width: 375px;
-  }
+    width: 375px; }
 
   header img {
-    width: 45%;
-  }
+    width: 45%; }
 
   .buttons .button-style {
-    width: 170px;
-  }
+    width: 170px; }
 
   .buttons .whatsapp-button img {
     margin: 0 25px 0 10px;
-    width: 25px;
-  }
+    width: 25px; }
 
   .buttons .phone-number-button img {
     margin: 0 7px 0 10px;
-    width: 25px;
-  }
+    width: 25px; }
 
   .button-style {
-    width: 225px;
-  }
+    width: 225px; }
 
   .hero-content {
     text-align: center;
-    width: 355px;
-  }
+    width: 355px; }
 
   .hero-section {
     flex-direction: column;
-    padding: 15px 50px;
-  }
+    padding: 15px 50px; }
 
   .hero-form {
-    margin-top: 35px;
-  }
+    margin-top: 35px; }
 
   #form {
-    padding: 15px;
-  }
+    padding: 15px; }
 
   .process-step {
     width: 200px;
-    margin: 15px 0;
-  }
+    margin: 15px 0; }
 
   .cards {
     width: 375px;
-    padding: 0;
-  }
+    padding: 0; }
 
   .block-service {
     align-items: start;
     width: 300px;
     height: 200px;
-    margin: 0 0 15px 0;
-  }
+    margin: 0 0 15px 0; }
 
   .contact-list {
     width: 375px;
-    margin: 0;
-  }
+    margin: 0; }
 
   .contact-list li {
-    margin: 0 15px 15px 0;
-  }
+    margin: 0 15px 15px 0; }
 
   .certificates-list {
     flex-wrap: wrap;
     width: 190px;
-    padding: 0;
-  }
+    padding: 0; }
 
   .sertificate-img {
     width: 80px;
     height: 130px;
-    margin: 5px;
-  }
-}
+    margin: 5px; } }
+
+/*# sourceMappingURL=style.css.map */
