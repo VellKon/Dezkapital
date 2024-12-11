@@ -56,7 +56,7 @@
 html {
   display: flex;
   justify-content: center;
-  background-color: #6666;
+  background-color: #23272A;
 }
 
 a {
@@ -107,11 +107,6 @@ h5 {
   margin-right: 15px;
 }
 
-.main-wrapper {
-  width: 1440px;
-  background-color: #23272A;
-}
-
 header {
   display: flex;
   justify-content: center;
@@ -130,7 +125,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: #181818;
-  padding: 35px 50px;
+  padding: 35px 100px;
 }
 
 .hero-content {
