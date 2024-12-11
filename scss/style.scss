@@ -239,10 +239,7 @@ header{
     padding: 25px;
 }
 .container-block-contact{
-    display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
     margin-top: 25px;
 }
 .contact-list{
@@ -253,21 +250,21 @@ header{
         margin: 5px;
     }
 }
-.telegram{
+.telegram-button{
     border: 2px solid $telegram-color;
 
     &:hover {
         background-color: $telegram-color;
   }
 }
-.instagram{
+.instagram-button{
     border: 2px solid $instagram-color;
 
     &:hover {
         background-color: $instagram-color;
   }
 }
-.email{
+.email-button{
     border: 2px solid #E08B40;
 
     &:hover {
