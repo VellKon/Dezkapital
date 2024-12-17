@@ -238,10 +238,6 @@ header {
   width: 52px;
 }
 
-.deratization p {
-  text-align: center;
-}
-
 @media (max-width: 576px) {
   html{
     font-size: 13px;
@@ -355,26 +351,24 @@ header {
   flex-direction: column;
   padding: 25px;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .cards {
   display: flex;
   padding: 25px 0 0 0;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 840px;
-}
+  max-width: 1400px; }
 
 .process-step {
-  display: flex;
-  flex-direction: column;
   background-color: #181818;
+  width: 100%;
   padding: 25px;
   margin: 5px;
   border-radius: 15px;
-  max-width: 360px;
-}
+  max-width: 476px; }
+  .process-step h4 {
+    margin-bottom: 25px; }
 .process-step h4 {
   margin-bottom: 25px;
 }
