@@ -44,7 +44,7 @@ document.getElementById("form").addEventListener("submit", (event) => {
 });
 
 
-const SERVER_URL = "https://bot-production-57ca.up.railway.app/send-message";
+const SERVER_URL = "https://bot-production-db79.up.railway.app/send-message";
 
 document.getElementById('form').addEventListener('submit', async function (event) {
   event.preventDefault();
